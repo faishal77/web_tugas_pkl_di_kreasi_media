@@ -1,0 +1,643 @@
+.formlogin{
+    height: 35vmax;
+    width: 35%;
+    margin:6vmax auto;
+    border-radius: 10px;
+    box-shadow:
+    8.2px 6.9px 7.4px rgba(0, 0, 0, 0.092),
+    17.6px 14.9px 20.5px rgba(0, 0, 0, 0.121),
+    33.7px 28.5px 49.4px rgba(0, 0, 0, 0.149),
+    78px 66px 164px rgba(0, 0, 0, 0.21)
+  
+}
+p{
+    text-align: center;
+}
+.formwelcome{
+    height: 15vmax;
+    width: 35%;
+    border-radius: 10px;
+    margin:15vmax auto;
+    box-shadow:
+    8.2px 6.9px 7.4px rgba(0, 0, 0, 0.092),
+    17.6px 14.9px 20.5px rgba(0, 0, 0, 0.121),
+    33.7px 28.5px 49.4px rgba(0, 0, 0, 0.149),
+    78px 66px 164px rgba(0, 0, 0, 0.21)
+}
+.Registerbtn{
+    width: 20%;
+    border-radius: 10px;
+    color: white;
+    margin-left: 25%;
+    text-align: center;
+    line-height: 3vmax;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: sans-serif;
+    height: 3vmax;
+    border: none;
+    background-color: rgb(26, 82, 63);
+}
+
+.Loginbtn{
+    width: 20%;
+    margin: 2vmax 5%;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 3vmax;
+    font-size: 1rem;
+    font-family: sans-serif;
+    height: 3vmax;
+    border: none;
+    background-color: rgb(32, 59, 194);
+}
+.input{
+    width: 30vmax;
+    height: 3vmax;
+    margin-top: 1vmax;
+    border: none;
+    margin-left: 2vmax;
+    text-indent: 1vmax;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.form-label{
+    text-indent: 2vmax;
+}
+.messange{
+    width: 50%;
+    margin:4vmax auto;
+}
+h1{
+    text-indent: 2vmax;
+}
+.btn{
+    margin-top: 3vmax;
+    margin-left: 2vmax;
+    width: 20%;
+}
+.btnsubmit{
+    margin-top: 3vmax;
+    margin-left: 2vmax;
+    width: 28%;
+}
+h6{
+    font-size: 10px;
+    margin-top: 2vmax;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 6vmax;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(43, 38, 38);
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+.textsambutan{
+ text-align: center;
+ font-size: 2.3rem;
+ line-height: 5vmax;
+}
+.nav .logo{
+    margin-top: 1.5vmax;
+    color: rgb(184, 176, 176);
+    font-family: 'Righteous', cursive;
+    letter-spacing: 4px;
+    margin-left: 1vmax;
+    font-size: 20px;
+}
+.nav .ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 40%;
+    line-height: 6vmax;
+    justify-content: space-between;
+    font-family: 'Lobster', cursive;
+}
+.nav .ul li a{
+    color: rgb(184, 176, 176);
+    text-decoration: none;
+
+}
+.actif{
+    background-color: rgba(219, 51, 107, 0.77);
+    height: 5px;
+    border-radius:10px;
+    text-decoration: none;
+    color: rgb(55, 92, 92);
+}
+.butten1{
+    width:100px;
+    height:40px;
+    text-decoration: none;
+    background-color: rgb(202, 66, 16);
+    border-radius: 10px;
+    margin-left: -50px;
+    cursor: pointer;
+    margin-top: 1.5vmax;
+    border: none;
+    line-height: 40px;
+    text-align:center;
+    font-size:15px;
+    color: aliceblue;
+} 
+.border{
+    width: 85%;
+    margin:2vmax auto;
+}
+.next{
+    width: 60%;
+    margin-top: 2vmax;
+    margin-left: 10%;
+}
+h1{
+    font-family: roboto,sans-serif;
+    color: whitesmoke;
+    font-size: 2rem;
+    
+  }
+  .satu{
+    color: darkred;
+  }
+  .dua{
+    color: darkgreen;
+  }
+.td{
+    height: 1vmax;
+    width: 30%;
+}
+.textDaftarTamu{
+   display: inline-block;
+    text-indent: 10vmax;
+    margin-top: 3vmax;
+    font-size: 2rem;
+}
+.btntd{
+    margin: auto;
+    width: 30%;
+}
+.texttamu{
+    margin: 1vmax 6%;
+}
+.card{
+    width: 80%;
+    margin:3vmax auto;
+    border: none;
+}
+.text_nodata{
+    color: darkgray;
+    font-size: 3rem;
+    text-align: center;
+}
+/* !! Fake Loading */
+/* .background_Loading{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    position: fixed;
+    margin-top: -42vmax;
+    height: 100vh;
+    background-color:rgb(231, 231, 221);
+}
+.move_loading{
+    width: 10%;
+    margin:50vh auto;
+    height: 10vmax;
+}
+.ping {
+    --uib-size: 5vmax;
+    --uib-speed: 2s;
+    --uib-color: black;
+  
+    position: relative;
+    height: var(--uib-size);
+    width: var(--uib-size);
+  }
+  
+  .ping::before,
+  .ping::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: var(--uib-color);
+    animation: pulse var(--uib-speed) linear infinite;
+    transform: scale(0);
+    opacity: 0;
+  }
+  
+  .ping::after {
+    animation-delay: calc(var(--uib-speed) / -2);
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  } */
+.border_profile{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 35vmax;
+    /* background-color: aquamarine; */
+}
+.card_profile{
+    height: 30vmax;
+    margin-top: 2vmax;
+    width: 30%;
+
+}
+.pp{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/11/6e/7e/116e7ee3618911857a5acf3a9f283c73.jpg');
+    width: 75%;
+    border-radius: 90pc;
+    height: 20vmax;
+}
+.change{
+    width: 45%;
+    margin-top: 4vmax;
+    margin-left: 5vmax;
+    color: rgb(54, 54, 159);
+    border: none;
+    background-color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: none;
+    outline: 1px solid rgb(192, 185, 185);
+    height: 3vmax;
+}
+
+/* !! Login */
+
+.winodws_Login{
+    display: flex;
+}
+.Login_background{
+    cursor: pointer;
+    width: 50%;
+    position: fixed;
+    margin-left: 50%;
+    height: 100vh;
+    filter: drop-shadow(90px 10px 70px rgb(190, 170, 170));
+    background-position: 10vmax 6vmax;
+    background-repeat: no-repeat;
+    background-size: 35vmax;
+    background-image: url('./Img/welcomerill.png');
+}
+.logo_Login{
+    margin:3vmax auto;
+    width: 30%;
+}
+.Login{
+    width: 50%;
+    height: 100vh;
+    /* background-color: rgb(141, 36, 25); */
+}
+.text_welcome{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.p_welcome{
+    text-align: center;
+    color: rgb(171, 155, 155);
+    font-size: 1rem;
+    margin-top: 1vmax;
+    line-height: 2vmax;
+}
+.welcome{
+    width: 60%;
+    margin:3vmax auto;
+}
+.perpindahan_login_signup{
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    height: 3.5vmax;
+    margin:-1vmax auto;
+    background-color: rgba(210, 208, 208, 0.5) ;
+}
+.Login_swif{
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    height: 3vmax;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 3px;
+    text-align: center;
+    line-height: 3vmax;
+    font-family: roboto,sans-serif;
+    background-color:white;
+    border-radius: 15px;
+}
+.link_move{
+    color: darkgray;
+    text-decoration: none;
+}
+.Login_swift{
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    width: 45%;
+    height: 3vmax;
+    background-color: rgba(233, 231, 231, 0.5);
+    font-size: 1rem;
+    margin-top: 4px;
+    text-align: center;
+    line-height: 3vmax;
+    font-family: roboto,sans-serif;
+    border-radius: 10px;
+}
+
+.Logo_text{
+    color: black;
+}
+
+.border_input{
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    height: 5vmax;
+    margin:4vmax auto;
+    background-color: rgba(210, 208, 208, 0.5) ;
+}
+.messange_eror{
+    text-align: center;
+    z-index: 3;
+    margin-top: -10vmax;
+    margin-left: 20%;
+    display: inline-block;
+    color: red;
+}
+.input_form:focus-visible{
+    outline: none;
+}
+.input_form{
+    border: none;
+    text-indent: 1vmax;
+    width: 95%;
+    margin-top: 6px;
+    border-radius: 15px;
+    height: 4vmax;
+    background-color: white;
+}
+.border_input_password{
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    height: 5vmax;
+    margin:-3vmax auto;
+    background-color: rgba(210, 208, 208, 0.5) ;
+}
+.continue{
+    width: 50%;
+    display: block;
+    margin:5vmax auto;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 4.5vmax;
+    height: 4.5vmax;
+    color: white;
+    font-size: 1.1rem;
+    background-color:rgb(35, 5, 233);
+}
+.border_or_login{
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin:5vmax auto;
+}
+.or_continue_with{
+    font-size: 1rem;
+    color: rgb(157, 150, 150);
+}
+.line{
+    width: 27%;
+    border-radius: 10px;
+    height: 3px;
+    margin-top: 7px;
+    background-color: rgb(202, 195, 195);
+}
+.choice_login{
+    width: 40%;
+    display: flex;
+    margin:-3vmax auto;
+    justify-content: space-evenly;
+}
+.border_text_tamu{
+    width: 60%;
+    margin:5vmax auto;
+}
+.border_text_tamu_Register{
+    width: 60%;
+    margin:4vmax auto;
+}
+.google{
+    width: 20%;
+    border-radius: 90vmax;
+    outline: 2px solid rgb(172, 156, 156);
+    height: 4vmax;
+    background-color:white;
+}
+.google1{
+    width: 20%;
+    border-radius: 90vmax;
+    height: 4vmax;
+    background-color: rgb(36, 58, 231);
+}
+.google2{
+    width: 20%;
+    border-radius: 90vmax;
+    height: 4vmax;
+    background-color:black;
+}
+
+/* !!Register */
+.border_input_name_Register{
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    height: 5vmax;
+    margin:4vmax auto;
+    background-color: rgba(210, 208, 208, 0.5) ;
+}
+.border_input_gmail_Register{
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    height: 5vmax;
+    margin:-3vmax auto;
+    background-color: rgba(210, 208, 208, 0.5) ;
+}
+.border_input_password_Register{
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    height: 5vmax;
+    margin:4vmax auto;
+    background-color: rgba(210, 208, 208, 0.5) ;
+}
+.continue_Register{
+    width: 50%;
+    display: block;
+    margin:-2vmax auto;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 4.5vmax;
+    height: 4.5vmax;
+    color: white;
+    font-size: 1.1rem;
+    background-color:rgb(35, 5, 233);
+}
+.border_or_login_Register{
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin:4vmax auto;
+}
+.or_continue_with{
+    font-size: 1rem;
+    color: rgb(157, 150, 150);
+}
+.line{
+    width: 27%;
+    border-radius: 10px;
+    height: 3px;
+    margin-top: 7px;
+    background-color: rgb(202, 195, 195);
+}
+.choice_login_Register{
+    width: 40%;
+    display: flex;
+    margin:-2vmax auto;
+    justify-content: space-evenly;
+}
+.google{
+    cursor: pointer;
+    width: 20%;
+    border-radius: 90vmax;
+    outline: 2px solid rgb(172, 156, 156);
+    height: 4vmax;
+    background-repeat: no-repeat;
+    background-size: 3vmax;
+    background-position: 7px;
+    background-color:white;
+    background-image: url('./Img/Google.png');
+}
+.google1{
+    cursor: pointer;
+    width: 20%;
+    border-radius: 90vmax;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 4vmax;
+    background-image: url('./Img/facebook-removebg-preview.png');
+    background-color: rgb(245, 246, 251);
+}
+.google2{
+    cursor: pointer;
+    width: 20%;
+    border-radius: 90vmax;
+    height: 4vmax;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./Img/github-removebg-preview.png');
+    background-color:rgb(175, 153, 153);
+}
+.Login_background_fixid{
+    width: 50%;
+    position: fixed;
+    margin-left: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./Img/hello.png');
+}
+
+/* !! forgot password */
+.Forgot_Password{
+    margin-left: 20vmax;
+    text-decoration: none;
+    margin-top: -3vmax;
+    display: inline-block;
+    position: absolute;
+}
+.border_right_pp{
+    width: 50%;
+    height: 100vh;
+}
+.border_keterangan_forgot_password{
+    width: 40%;
+    height: 100vh;
+    overflow: hidden;
+}
+.border_forgot_password{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background-color: white;
+    height: 100vh;
+}
+.border_ilustrator{
+    width: 65%;
+    border-radius: 90pc;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./Img/bloom-woman-with-a-lock-key-cybersecurity.png');
+    margin:12vmax auto;
+    background-color: rgb(144, 167, 167);
+}
+.text_forgot_password{
+    margin-top: 15vmax;
+    color: black;
+    font-size: 4.5rem;
+    font-family: roboto,sans-serif;
+    text-indent: .5vmax;
+}
+.p_text_forgot_password{
+    margin-top: 1.3vmax;
+    font-size: 1.2rem;
+    font-family: roboto,sans-serif;
+    text-indent: -2vmax;
+}
+.button_submit_forgot_password{
+   margin-top: -1vmax;
+   margin-left: 4vmax;
+}
+.form_forgot_password{
+    width: 80%;
+    margin-top: 1vmax;
+}
